@@ -16,5 +16,3 @@ const simpleCalculator = (num1,num2,opeSyntext)=>{
         return num1 + num2
     } 
 }
-
-console.log(simpleCalculator(2,3,"*"));

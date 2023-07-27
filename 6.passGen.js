@@ -1,4 +1,4 @@
-function generateRandomPassword(length) {
+const generateRandomPassword =(length)=> {
     const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
     const numberChars = '0123456789';
@@ -14,8 +14,4 @@ function generateRandomPassword(length) {
   
     return password;
   }
-  
-  // Example usage to generate a random password of length 12
-  const password = generateRandomPassword(13);
-  console.log("Random Password:", password);
   

@@ -14,5 +14,3 @@ const sumIfPositive = (arr) => {
     return result
 
 }
-
-console.log(sumIfPositive(numArr));

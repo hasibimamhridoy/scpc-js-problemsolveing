@@ -20,6 +20,4 @@ const mostFrequent = (arr) => {
 
 }
 
-console.log(mostFrequent(numArr));
-
 

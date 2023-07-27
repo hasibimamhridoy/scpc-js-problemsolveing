@@ -22,5 +22,3 @@ const strReverse = (str) => {
     return reverserStr.split(" ").join(" ")
 
 }
-
-console.log(strReverse(nameStr));

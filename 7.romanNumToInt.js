@@ -1,4 +1,4 @@
-function romanToInt(romanNumeral) {
+const  romanToInt =(romanNumeral) => {
     const romanMap = {
       'I': 1,
       'V': 5,
@@ -28,7 +28,4 @@ function romanToInt(romanNumeral) {
     return result;
   }
   
-  // Example usage
-  console.log(romanToInt("IX")); // Output: 9
-  console.log(romanToInt("XXI")); // Output: 21
   
